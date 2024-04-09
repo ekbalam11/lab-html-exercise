@@ -75,4 +75,25 @@ input[type=submit]{
     padding: 1rem;
 
 }
-
+.section-amazing{
+  padding: 30px;
+  text-align: center;
+  background-color: rgba(250, 235, 215, 0.506);
+}
+.section-amazing__title{
+  font-size: 5rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.section-amazing__description{
+  width: 40%;
+  margin: 0 auto;
+}
+.section-amazing__links{
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
