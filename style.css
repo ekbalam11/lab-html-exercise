@@ -43,6 +43,13 @@ a {
 
 .searchForm{
     display: flex;
+    position: relative;
+    align-items: center;
+}
+.searchForm .glass{
+  height: 25px;
+  position: absolute;
+  padding-left: 1rem;
 }
 
 .searchForm > input{
@@ -51,6 +58,7 @@ a {
 }
 
 #package-name{
+  padding-left: 3rem;
   background-color: rgba(222, 222, 222, 0.501);
   width: 350px;
 }
@@ -76,26 +84,39 @@ input[type=submit]{
 
 }
 .section-amazing{
-  padding: 30px;
+  padding: 5rem;
   text-align: center;
-  background-color: rgba(250, 235, 215, 0.506);
+  background-color: rgba(247, 238, 225, 0.506);
 }
 .section-amazing__title{
-  font-size: 5rem;
-  font-weight: 700;
+  font-size: 4rem;
+  font-weight:1000;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 .section-amazing__description{
   width: 40%;
   margin: 0 auto;
+  padding: 2rem;
 }
 .section-amazing__links{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  font-weight: 1000;
   width: 40%;
   margin: 0 auto;
   margin-top: 1rem;
+}
+.section-amazing__links a.plans{
+  background-color: #fb3e44;
+  color: white;
+  padding: 1rem 3rem;
+  box-shadow: 6px 3px 3px rgba(107, 5, 5, 0.242);
+}
+.section-amazing__links a.join{
+  background-color: white;
+  padding: 1rem 3rem;
 }
 .section-open-source{
   display: flex;
@@ -106,11 +127,48 @@ input[type=submit]{
 }
 .section-open-source__image{
   width: 200px;
+  padding: 2rem;
 }
 .section-open-source__title{
+  padding: 0 2rem;
   font-size: 2rem;
+  background-color: rgba(244, 201, 91, 0.492);
 }
 .section-open-source__description{
   width: 60%;
   text-align: center;
+  font-size: .75rem;
+}
+.section-features{
+  margin: 5rem auto;
+  width: 80%;
+  padding: 0 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3rem;
+}
+.section-features img{
+  height: 30px;
+}
+.section-features h3{
+  color: #fb3e44;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-top: 0;
+}
+.section-features p{
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.section-org{
+  text-align: center;
+  font-weight: bold;
+}
+
+.section-org a{
+  background-color: black;
+  color: aliceblue;
+  padding: 1rem 5rem;
 }
